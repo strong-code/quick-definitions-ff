@@ -22,7 +22,6 @@ function extractMeaning (document, context) {
     if (definitions.length === 0) { return null; }
 
     var meaning = definitions[0].textContent
-    var secondary = definitions[1].textContent
 
     var audio = document.querySelectorAll('div.pronunciations.sounds ul li')
     var audioSrc;
