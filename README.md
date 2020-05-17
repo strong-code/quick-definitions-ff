@@ -5,9 +5,9 @@ A utility extension for Firefox that allows you to look up inline definitions of
 It uses Wordnik, which itself is an aggregator of dictionary definitions. 
 
 ## TODO
-- [] audio pronunciations
-- [] formatting
-- [] multiple definition support
+- [ ] audio pronunciations
+- [ ] formatting
+- [ ] multiple definition support
 
 ## Sideloading a Firefox extension locally
 
