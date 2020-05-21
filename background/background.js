@@ -42,19 +42,3 @@ function extractMeaning (document, context) {
 
     return { word: context.word, meaning: meaning, audioSrc: audioSrc };
 };
-
-function saveWord (content) {
-    let word = content.word,
-        meaning = content.meaning,
-
-        storageItem = browser.storage.local.get('definitions');
-
-        storageItem.then((results) => {
-            let definitions = results.definitions || {};
-
-            definitions[word] = meaning;
-            browser.storage.local.set({
-                definitions
-            });
-        })
-}
